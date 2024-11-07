@@ -1,0 +1,222 @@
+/* Reset básico */
+@font-face {
+    font-family: prime;
+    src: url(./AmazonEmber_Rg.woff);
+  }
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {font-family: prime;
+  
+
+   
+}
+
+/* Navegação */
+nav {
+    background-color: #000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+}
+
+nav .arrow {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+nav .logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .user-photo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Banner */
+.banner {
+    background-image: url(./BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
+    background-size: cover;
+    color: white;
+    padding: 60px 0;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.left-side {
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.or {
+    margin: 10px 0;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #ccc;
+}
+
+/* Segunda Seção */
+.white-section {
+    background-color: #fff;
+    display: flex;
+    padding: 50px;
+}
+
+.left-div {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right-div {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+
+.image-column img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Loja Prime Video */
+.store-section {
+    background-image: url(./MLP_BG_left_1440x675.jpg) ;    
+    padding: 100px;
+    background-position:center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align:right;
+    color: white;
+}
+
+.store-right {
+    max-width: 200rem;
+    margin: 0 ;
+}
+.store-left {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.store-right h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.store-right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+/* Dispositivos */
+.devices-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #f3f3f3;
+}
+
+.device-box {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+td {
+    text-align: center;
+    padding: 5px;
+    height: 100px; /* Altura da célula */
+    width: 100px;  /* Largura da célula */
+}
+img {
+    width: 150px;     /* Ajusta a largura da imagem para a largura da célula */
+    height: 100px;    /* Ajusta a altura da imagem para a altura da célula */
+    object-fit: cover; /* Faz a imagem cobrir completamente a célula sem distorcer */
+}
+
+.device-box h3 {
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.device-box p {
+    font-size: 16px;
+}
+
+/* Rodapé */
+footer {
+
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+#prime{width: 100px;
+    height: auto;
+    
+}
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer p {
+    
+    margin-top: 10px;
+    font-size: 12px;
+}
